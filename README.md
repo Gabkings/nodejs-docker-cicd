@@ -164,4 +164,4 @@ nodejs-docker-cicd/
 
 ## Developed By
 
-**Gabriel Gitonga** — Full Stack Developer, Sweden  
+**Gabriel Gitonga** — Full Stack Developer, Kenya 
