@@ -13,7 +13,7 @@ RUN npm ci
 COPY . .
 
 # --- Stage 2: Build the application ---
-FROM node:18-alpine AS runner
+FROM node:18-alpine AS production 
 
 # Create a non-root user -- running as root is not recommended
 RUN addgroup -g 1001 -S nodejs && adduser -S nodeuser -u 1001 
